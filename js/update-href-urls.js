@@ -3,16 +3,20 @@
   * Licensed under the terms of the MIT license. See LICENSE file in project root for terms.
   */
 
-// adding suffix of "index.html" to the header link,
-// because we refer to S3 and they will not auto trnslate the directory referer to inner index.html
 !(function () {
   let isReady = false;
 
   document.addEventListener('DOMContentLoaded', () => {
+    // add index.html to the header link
     const header = document.getElementsByTagName('HEADER')[0];
     const logo = header.childNodes[0];
     const href = `${logo.href}index.html`;
     logo.setAttribute('href', href);
+
+    // update home container background img url on prod only
+    if (location.hostname.includes('github')) {
+      document.getElementsByClassName('homeContainer')[0].style.background = 'url(/cofi/img/cofi-background.svg)';
+    }
   });
 
   window.addEventListener('message', (event) => {
