@@ -15,7 +15,10 @@
 
     // update home container background img url on prod only
     const prefix = location.hostname.includes('github') ? '/cofi' : '';
-    document.getElementsByClassName('homeContainer')[0].style.background = `url(${prefix}/img/cofi-background.svg)`;
+    const homeContainer = document.getElementsByClassName('homeContainer')[0];
+    if (homeContainer) {
+      homeContainer.style.background = `url(${prefix}/img/cofi-background.svg)`;
+    }
   });
 
   window.addEventListener('message', (event) => {
