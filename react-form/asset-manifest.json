@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "https://galhavivi.github.io/cofi/react-form/static/css/main.99903ae4.css",
+    "main.js": "https://galhavivi.github.io/cofi/react-form/static/js/main.b08f3df0.js",
+    "main.css.map": "https://galhavivi.github.io/cofi/react-form/static/css/main.99903ae4.css.map",
+    "main.js.map": "https://galhavivi.github.io/cofi/react-form/static/js/main.b08f3df0.js.map",
+    "index.html": "https://galhavivi.github.io/cofi/react-form/index.html",
+    "precache-manifest.c614827a496aa918754ffaa7c5296d1d.js": "https://galhavivi.github.io/cofi/react-form/precache-manifest.c614827a496aa918754ffaa7c5296d1d.js",
+    "service-worker.js": "https://galhavivi.github.io/cofi/react-form/service-worker.js",
+    "static/js/main.b08f3df0.js.LICENSE.txt": "https://galhavivi.github.io/cofi/react-form/static/js/main.b08f3df0.js.LICENSE.txt",
+    "static/media/logo.svg": "https://galhavivi.github.io/cofi/react-form/static/media/logo.8387712a.svg"
+  },
+  "entrypoints": [
+    "static/css/main.99903ae4.css",
+    "static/js/main.b08f3df0.js"
+  ]
+}
